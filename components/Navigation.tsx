@@ -20,7 +20,16 @@ export const Navigation: React.FC = () => {
             {/* <a href="#" className="font-serif text-2xl tracking-wider text-[#1F5670] font-semibold">
               FERNANDA<span className="text-[#D42D6F]">.</span>BERTERO
             </a> */}
-            <img src="/logos/fernanda_bertero_horizontal.png" alt="Fernanda Bertero" className="h-12" />
+            <img 
+              src="/logos/fernanda_bertero_isotipo.png" 
+              alt="Fernanda Bertero" 
+              className="h-8 md:hidden" 
+            />
+            <img 
+              src="/logos/fernanda_bertero_horizontal.png" 
+              alt="Fernanda Bertero" 
+              className="hidden md:block h-12" 
+            />
           </div>
           
           {/* Desktop Menu */}
