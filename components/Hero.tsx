@@ -2,13 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const heroImages = [
-  // "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Rack de ropa ordenado con zapatos
-  "https://images.unsplash.com/photo-1542060748-10c28b62716f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1743877428891-7b05eb7b4444?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1743877428895-fd3aabd06528?q=80&w=3010&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  // "https://images.unsplash.com/photo-1551488852-080175b9264e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Perchero minimalista
-  // "https://images.unsplash.com/photo-1558769132-cb1f09ef8d10?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Dormitorio con ropa ordenada
-  // "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"  // Camisas blancas colgadas ordenadamente
+  "/img/G2.png",
+//   "/img/R1.png",
+//   "/img/R2.png",
+//   "/img/R3.png"
 ];
 
 export const Hero: React.FC = () => {
