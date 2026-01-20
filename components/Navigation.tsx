@@ -5,7 +5,7 @@ const navItems = [
   { label: 'Inicio', href: '#home' },
   { label: 'Filosofía', href: '#philosophy' },
   { label: 'Servicios', href: '#services' },
-  { label: 'Tu Aliada IA', href: '#ai-advisor' },
+//   { label: 'Tu Aliada IA', href: '#ai-advisor' },
   { label: 'Contacto', href: '#contact' },
 ];
 
@@ -17,9 +17,10 @@ export const Navigation: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="font-serif text-2xl tracking-wider text-[#1F5670] font-semibold">
+            {/* <a href="#" className="font-serif text-2xl tracking-wider text-[#1F5670] font-semibold">
               FERNANDA<span className="text-[#D42D6F]">.</span>BERTERO
-            </a>
+            </a> */}
+            <img src="/logos/fernanda_bertero_horizontal.png" alt="Fernanda Bertero" className="h-12" />
           </div>
           
           {/* Desktop Menu */}
