@@ -3,9 +3,10 @@ import { ArrowRight } from 'lucide-react';
 
 const heroImages = [
   "/img/G2.png",
-//   "/img/R1.png",
-//   "/img/R2.png",
-//   "/img/R3.png"
+//   "/img/G3.png",
+//   "/img/G4.png",
+  "/img/G5.png",
+  "/img/G6.png"
 ];
 
 export const Hero: React.FC = () => {

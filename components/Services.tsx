@@ -47,9 +47,9 @@ export const Services: React.FC = () => {
               <p className="font-sans text-[#E8E4DF]/80 leading-relaxed">
                 {service.description}
               </p>
-              <button className="mt-8 text-sm uppercase tracking-widest font-medium border-b border-transparent hover:border-white transition-all pb-1">
+              {/* <button className="mt-8 text-sm uppercase tracking-widest font-medium border-b border-transparent hover:border-white transition-all pb-1">
                 Saber más
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
