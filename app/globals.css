@@ -1,0 +1,18 @@
+/* Custom Font Configuration */
+.font-sans { font-family: 'Montserrat', sans-serif; }
+.font-serif { font-family: 'Lora', serif; }
+
+/* Smooth Scrolling */
+html { scroll-behavior: smooth; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #E8E4DF; 
+}
+::-webkit-scrollbar-thumb {
+  background: #1F5670; 
+  border-radius: 4px;
+}
