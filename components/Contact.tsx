@@ -13,14 +13,14 @@ export const Contact: React.FC = () => {
             </p>
             
             <div className="flex flex-col items-center space-y-6 pt-4">
-              <div className="flex items-center space-x-4 text-[#1F5670]">
+              {/* <div className="flex items-center space-x-4 text-[#1F5670]">
                 <Mail className="text-[#D42D6F]" />
                 <span className="font-sans font-medium">contacto@fernanda.bertero.com.ar</span>
-              </div>
-              <div className="flex items-center space-x-4 text-[#1F5670]">
+              </div> */}
+              <a href="https://www.instagram.com/fernanda.bertero" target="_blank" className="flex items-center space-x-2 text-[#1F5670]">
                 <Instagram className="text-[#D42D6F]" />
                 <span className="font-sans font-medium">@fernanda.bertero</span>
-              </div>
+              </a>
             </div>
           </div>
 
